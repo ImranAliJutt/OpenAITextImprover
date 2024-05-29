@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: #F8F4EC;
+  color: #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: 32px auto;
+  background: #00224D;
+  padding: 16px 32px;
+  box-shadow: 0 4px 40px -8px rgba(0, 0, 0, 0.2);
+}
+
+.container h1 {
+  margin-top: 0;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+.container input[type="text"],
+.container button {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.container input[type="text"] {
+  width: calc(100% - 20px);
+}
+
+.container button {
+  width: 100%;
+  cursor: pointer;
+  background: #e63946;
+  color: #fff;
+  border: none;
+}
+
+.container .translation {
+  margin-top: 20px;
+}
+
+.container .translation textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  font-size: 16px;
+  height: 200px;
+  resize: none;
+  border: 1px solid #023047;
+  background: #edf2f4;
+}
+
+.error {
+  color: red;
+}
