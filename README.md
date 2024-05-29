@@ -20,6 +20,7 @@ To get started with the OpenAITextImprover project, follow these steps:
    REACT_APP_OPENAI_API_KEY="your-api-key-here"
 
 4. **Start the Application**: Start the development server to run the application locally.
+   
    npm start
    
 6. **Access the Application**: Open your web browser and navigate to http://localhost:3000 to access the application.
